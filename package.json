@@ -1,0 +1,16 @@
+{
+  "name": "booking_full",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css --watch",
+    "watch": "watch \"nmp run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3",
+    "watch": "^1.0.2"
+  }
+}
